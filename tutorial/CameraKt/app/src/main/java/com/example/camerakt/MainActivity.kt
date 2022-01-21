@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
      * 카메라 촬영
      */
     private fun takeCapture() {
-        println("takeCapture")
 
         // 기본 카메라 앱 실행
         Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->
@@ -103,7 +102,6 @@ class MainActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
-        println("ActivityResult")
         // 이미지를 성공적으로 가져 왔다면
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == Activity.RESULT_OK) {
             val bitmap: Bitmap
