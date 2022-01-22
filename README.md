@@ -13,3 +13,4 @@
 
 ### Reference
 - [Android Studio Emulator로 웹캠 활용](https://stackoverflow.com/questions/2884620/using-camera-in-the-android-emulator)
+- [ViewBinding(replcement findViewById)](https://duckssi.tistory.com/42)
