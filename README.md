@@ -3,7 +3,7 @@
 
 
 ### See also
-- ~startActivityForResult~(deprecated) // 대체 로직 학습 필요
+- [~startActivityForResult~(deprecated) // 대체 로직 학습 필요](https://github.com/doyou1/android-workspace/tree/master/see-also/ActivityResultAPI-ImagePicker)
 - Android resource/menu 개념 및 checkableBehavior
 - when (switch 대체)
 - what is different `this` and `application Context` in context flow?
